@@ -1,0 +1,21 @@
+{
+    "name": "hr.worker",
+    "description": "Utility for web-worker communication",
+    "version": "0.0.0",
+    "main": "./lib/index.js",
+    "devDependencies": {
+        "hr.mocha": "^0.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HappyRhino/hr.worker.git"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/hr-mocha ./tests/index.js"
+    },
+    "dependencies": {
+        "q": "*",
+        "hr.utils": "*",
+        "hr.class": "*"
+    }
+}
