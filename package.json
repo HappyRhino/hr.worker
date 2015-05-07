@@ -15,7 +15,7 @@
     },
     "dependencies": {
         "q": "*",
-        "hr.utils": "*",
-        "hr.class": "*"
+        "lodash": "*",
+        "hr.class": ">=2.0.0"
     }
 }
